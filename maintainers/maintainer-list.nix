@@ -5735,6 +5735,16 @@
     githubId = 373946;
     name = "Erno Hopearuoho";
   };
+  ErrorNoInternet = {
+    name = "Ryan Huang";
+    email = "errornointernet@envs.net";
+    matrix = "@errornointernet:envs.net";
+    github = "ErrorNoInternet";
+    githubId = 61157623;
+    keys = [{
+      fingerprint = "F815 744C 5BF5 F8DF 7F04  7C47 2486 BFB7 B1E6 A4A3";
+    }];
+  };
   ersin = {
     email = "me@ersinakinci.com";
     github = "ersinakinci";
