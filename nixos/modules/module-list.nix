@@ -892,6 +892,7 @@
   ./services/networking/antennas.nix
   ./services/networking/aria2.nix
   ./services/networking/asterisk.nix
+  ./services/networking/astrillvpn.nix
   ./services/networking/atftpd.nix
   ./services/networking/autossh.nix
   ./services/networking/avahi-daemon.nix
