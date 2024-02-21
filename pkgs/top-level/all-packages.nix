@@ -334,6 +334,8 @@ with pkgs;
 
   auth0-cli = callPackage ../tools/admin/auth0-cli { };
 
+  astrillvpn = callPackage ../applications/networking/astrillvpn { };
+
   atomic-operator = callPackage ../tools/security/atomic-operator { };
 
   atomic-swap = callPackage ../applications/blockchains/atomic-swap { };
