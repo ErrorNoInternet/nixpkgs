@@ -7963,8 +7963,8 @@ final: prev:
     src = fetchFromGitHub {
       owner = "neovim";
       repo = "nvim-lspconfig";
-      rev = "2b3d49e1ed6671669c038b3708dd873a271df234";
-      sha256 = "0dv2y6mfaw2wxradfbfv20957bw51krdr17jdak05mkf43rvm805";
+      rev = "2c1877081b237a643e52ebdebaf36c84a2695639";
+      sha256 = "0sjws84973yqbdksn3nfp7vvacl9z5m1hl0wrpks9sva7faa9vmx";
     };
     meta.homepage = "https://github.com/neovim/nvim-lspconfig/";
   };
@@ -8221,18 +8221,6 @@ final: prev:
     meta.homepage = "https://github.com/s1n7ax/nvim-search-and-replace/";
   };
 
-  nvim-snippy = buildVimPlugin {
-    pname = "nvim-snippy";
-    version = "2024-05-01";
-    src = fetchFromGitHub {
-      owner = "dcampos";
-      repo = "nvim-snippy";
-      rev = "1184a8734e998649f3bb9a5db9efd4543282050b";
-      sha256 = "0lgqiwnsm4ahgkv7qnxyi48m2i7wybxkxv29869v71bidnbkm6yb";
-    };
-    meta.homepage = "https://github.com/dcampos/nvim-snippy/";
-  };
-
   nvim-snippets = buildVimPlugin {
     pname = "nvim-snippets";
     version = "2024-05-22";
@@ -8243,6 +8231,18 @@ final: prev:
       sha256 = "10392wxsk2kz1jaryhgapgzs2kmwxi6d088mb0vkkyz6cngrgc1k";
     };
     meta.homepage = "https://github.com/garymjr/nvim-snippets/";
+  };
+
+  nvim-snippy = buildVimPlugin {
+    pname = "nvim-snippy";
+    version = "2024-05-01";
+    src = fetchFromGitHub {
+      owner = "dcampos";
+      repo = "nvim-snippy";
+      rev = "1184a8734e998649f3bb9a5db9efd4543282050b";
+      sha256 = "0lgqiwnsm4ahgkv7qnxyi48m2i7wybxkxv29869v71bidnbkm6yb";
+    };
+    meta.homepage = "https://github.com/dcampos/nvim-snippy/";
   };
 
   nvim-solarized-lua = buildVimPlugin {
